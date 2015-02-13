@@ -1,6 +1,6 @@
 " Smart keyboard switching
 
-if !has("macunix")
+if !system('uname')=~'Darwin'
 	finish
 endif
 
